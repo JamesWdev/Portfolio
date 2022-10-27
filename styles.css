@@ -43,8 +43,21 @@ header {text-align: center;}
   color: rgb(72, 72, 72);
   font-weight: 100;
   margin-top: 30px;
-  margin-bottom: 40px;
 }
+
+address {
+  line-height: 22px; 
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+address a {color: rgb(81, 81, 97);}
+
+/* top address transition */
+address a {transition: .3s;}
+address a:hover {color: rgb(161, 146, 146);}
+address a:focus {color: rgb(109, 97, 97);}
+/* ---------------------- */
 
 h2 {
   font-size: 40px; 
@@ -226,10 +239,17 @@ section {
 /* ------------------- */
 
 footer {
-  background-color: rgb(48, 47, 47); 
+  background-color: rgb(60, 59, 59); 
   color: white; 
   text-align: center; 
   padding: 15px;
+}
+
+.footer-address {line-height: 20px;}
+
+.footer-address a{
+  color: whitesmoke;
+  font-size: 11px;
 }
 
 /* Footer GitHub Transition */
@@ -238,6 +258,10 @@ footer a:hover {filter: brightness(0.4)}
 footer a:focus {filter: brightness(0.4)}
 
 .copyright {margin-top: 10px; font-size: 10px;}
+
+.footer-address a {transition: .3s;} /*adds brightness*/
+.footer-address a:hover {color: rgb(255, 255, 255);}
+.footer-address a:focus {color: rgb(255, 255, 255);}
 /* ------------------------ */
 
 
