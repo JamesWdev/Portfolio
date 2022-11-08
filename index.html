@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/jw2.jpg">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
-  <title>James Whitehead</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+  <title>James Whitehead</title>
 </head>
 <body>
-
   <div class="top-bg"></div>
-  <img class="jw-img" src="images/jw.jpg" alt="Picture of me">
+  <img id="id" class="jw-img" src="images/jw.jpg" alt="Picture of me">
   <main>
     <header>
       <p class="name">James Whitehead</p>
@@ -54,11 +54,22 @@
       </div>
     </header>    
 
-    <Section>
+    <Section aria-label="Project gifs, images, and links" >
       <div class="card">
         <h3>Projects</h3>
         <img class="arrow" src="images/arrow.png" alt="Arrow pointing down">
-
+        <div class="gif-container" >
+          <ul class="img-slides">
+            <li class="slide">
+              <h4 class="slide-title"></h4>
+              <img src="" alt="Animation of website features." class="gif" data-active>
+            </li>
+          </ul>
+          <div class="button-container">
+            <button class="previous">&lHar;</button>
+            <button class="next">&rHar;</button>
+          </div>
+        </div>
         <a class="amazone-link" href="https://amazoneapplication.herokuapp.com/" target="_blank"><img  src="images/amazone-img.png" alt="Picture of Amazone website"></a>
 
         <a class="github-icon"  href="https://github.com/JamesWdev" target="_blank"><img src="images/GitHub-Mark-Light-120px-plus.png"></a>
@@ -135,7 +146,6 @@
       <a href="https://github.com/JamesWdev" target="_blank"><img src="images/GitHub-Mark-Light-32px.png" alt="Picture of GitHub logo"></a>
       <p class="copyright"><em>&copy; James Whitehead</em></p>    
     </footer>  
-
   </main>
 </body>
 </html>
