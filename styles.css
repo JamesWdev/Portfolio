@@ -148,6 +148,10 @@ section {
   box-shadow: 0px 2px 4px #202020; 
 }
 
+
+
+
+
 .gif {
   display: block;
   margin-left: auto;
@@ -160,7 +164,25 @@ section {
   background-color: black;
   transition: 0.6s ease;
 }
+/* ---slide transitions--- */
+.fade {
+  animation-name: fade;
+  animation-duration: .7s;
+}
+@keyframes fade {
+  from {filter: brightness(3);} 
+  to {filter: brightness(1);}
+}
 
+.fade2 {
+  animation-name: fade2;
+  animation-duration: .7s;
+}
+@keyframes fade2 {
+  from {filter: brightness(3);} 
+  to {filter: brightness(1);}
+}
+/* ----------------------- */
 
 .button-container {
   height: 60px;
