@@ -1,5 +1,5 @@
 const gifLinks = {
-  "Add items to cart": "images/add_cart.gif",
+  "Add items to cart": "images/add_cart_copy.gif",
   "Edit cart items": "images/update_item.gif",
   "Remove cart items": "images/delete_item.gif",
   "Purchase items": "images/purchase.gif",
@@ -19,6 +19,7 @@ slide.innerHTML = slideTitles[0];
 // Next button logic-----
 let nextButton = document.querySelector('.next');
 
+let j = true;
 let i = 0;
 nextButton.addEventListener('click', function() {
   if (i < (gifLinksLength - 1)) {
@@ -29,7 +30,18 @@ nextButton.addEventListener('click', function() {
   
   slide.innerHTML = slideTitles[`${i}`];
   gif.src = gifLinkValues[`${i}`];
+  //toggle fade animation per click
+ if (j === true) {
+  gif.classList.remove('fade2');
+  gif.classList.add('fade');
+  return j = false;
+ } else {
+  gif.classList.remove('fade');
+  gif.classList.add('fade2');
+  return j = true;
+ }
 })
+
 //------------------------
 // Previous button logic--
 let prevButton = document.querySelector('.previous');
@@ -43,4 +55,16 @@ prevButton.addEventListener('click', function() {
 
   slide.innerHTML = slideTitles[`${i}`];
   gif.src = gifLinkValues[`${i}`];
+
+  gif.classList.add('fade2');
+//toggle fade animation per click
+  if (j === true) {
+    gif.classList.remove('fade2');
+    gif.classList.add('fade');
+    return j = false;
+   } else {
+    gif.classList.remove('fade');
+    gif.classList.add('fade2');
+    return j = true;
+   }
 })
