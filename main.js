@@ -1,5 +1,5 @@
 const gifLinks = {
-  "Add items to cart": "images/add_cart_copy.gif",
+  "Add items to cart": "images/add_cart.gif",
   "Edit cart items": "images/update_item.gif",
   "Remove cart items": "images/delete_item.gif",
   "Purchase items": "images/purchase.gif",
