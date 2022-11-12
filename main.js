@@ -1,11 +1,11 @@
 const gifLinks = {
+  "Add items to cart": "images/add_cart_copy.gif",
+  "Edit cart items": "images/update_item.gif",
+  "Remove cart items": "images/delete_item.gif",
+  "Purchase items": "images/purchase.gif",
   "Responsive layout": "images/responsive.gif",
   "Mobile view": "images/mobile.gif",
-  "Tablet view": "images/tablet.gif",
-  "Add items to cart": "images/add_cart.gif",
-  "Purchase items and empty cart": "images/purchase.gif",
-  "Edit quanity in cart": "images/update_item.gif",
-  "Remove items from cart": "images/delete_item.gif" 
+  "Tablet view": "images/tablet.gif"
 };
 const slide = document.querySelector('.slide-title');
 const slideTitles = Object.keys(gifLinks);
