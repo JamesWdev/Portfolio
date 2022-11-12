@@ -142,7 +142,7 @@ section {
   margin-bottom: 30px;
   font-size: 28px;
   color: whitesmoke;
-  padding: 10px;
+  padding: 7px 10px;
   border-radius: 10px;
   background-color: rgb(3, 213, 213);
   box-shadow: 0px 2px 4px #202020; 
@@ -161,6 +161,7 @@ section {
   transition: 0.6s ease;
 }
 
+
 .button-container {
   height: 60px;
   display: flex;
@@ -171,18 +172,21 @@ section {
 }
 
 .button-container button {
+  width: 60px;
+  height: 60px;
   cursor: pointer;
   font-size: 40px;
   color: whitesmoke;
   text-shadow: 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255);
-  /* background: none; */
   background-color: rgb(3, 213, 213);
   border: none;
   border-radius: 10px;
-  padding: 10px;
+  padding: 4.5px 0px 0px 0px;
   box-shadow: 0px 2px 4px #202020; 
   transition: 0.2s;
 }
+
+
 /* Gif button transistion */
 .button-container button:hover {
   background-color: rgb(231, 125, 54);
@@ -322,10 +326,6 @@ footer a:focus {filter: brightness(0.4)}
 .footer-address a:hover {color: rgb(255, 255, 255);}
 .footer-address a:focus {color: rgb(255, 255, 255);}
 /* ------------------------ */
-/* ------------------- */
-/*----Media---620px----*/
-/* ------------------- */
-
 
 /* ------------------- */
 /*----Media---620px----*/
