@@ -24,7 +24,7 @@ a {text-decoration: none;}
 /* ------------------- */
 
 .top-bg {
-  background-image: url("images/bg4.jpg");
+  background-image: url("images/bg-opt.jpg");
   height: 350px;
 }
 
@@ -63,7 +63,6 @@ h2 {
   font-size: 40px; 
   font-weight: 200;
   color: rgb(233, 134, 4);
-  /* color: rgb(72, 72, 72); */
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -138,9 +137,15 @@ section {
 .arrow {height: 40px;}
 
 .slide-title {
+  max-width: 265px;
+  margin: auto;
+  margin-bottom: 30px;
   font-size: 28px;
-  color: aqua;
-  margin-bottom: 20px;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(3, 213, 213);
+  box-shadow: 0px 2px 4px #202020; 
 }
 
 .gif {
@@ -151,36 +156,44 @@ section {
   max-width: 100%;
   border-radius: 15px;  
   box-shadow: 0px 2px 4px #202020;
+  padding: 4px;
+  background-color: black;
+  transition: 0.6s ease;
 }
 
 .button-container {
   height: 60px;
   display: flex;
   justify-content: space-between;
-  width: 30%;
-  margin: 4px auto 25px auto;  
+  min-width: 130px; 
+  width: 38%;
+  margin: 10px auto 25px auto;  
 }
 
 .button-container button {
   cursor: pointer;
   font-size: 40px;
-  color: aqua;
-  text-shadow: 0px 0px 1.5px aqua, 0px 0px 1.5px aqua, 0px 0px 1.5px aqua, 0px 0px 1.5px aqua;
-  background: none;
+  color: whitesmoke;
+  text-shadow: 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255);
+  /* background: none; */
+  background-color: rgb(3, 213, 213);
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px #202020; 
   transition: 0.2s;
 }
 /* Gif button transistion */
 .button-container button:hover {
-  color: rgb(248, 169, 85);
-  text-shadow: 0px .5px 1px rgb(248, 169, 85);
+  background-color: rgb(231, 125, 54);
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0);
 }
 .button-container button:focus {transition: .2s ease-in;}
 .button-container button:focus {
-  color: rgb(248, 169, 85);
-  text-shadow: 0px .5px 1px rgb(248, 169, 85);
-  font-size: 47px;
+  background-color: rgb(231, 125, 54);
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0);
 }
 /* ---------------------- */
 
