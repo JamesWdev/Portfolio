@@ -123,8 +123,9 @@ section {
   color: rgb(233, 134, 4);
   padding: 15px;
   border-radius: 6px;
-  margin: auto;
-  max-width: fit-content; 
+  /* margin: auto; */
+  /* max-width: fit-content;  */
+
 }
 
 .card h3 {
@@ -147,10 +148,6 @@ section {
   background-color: rgb(3, 213, 213);
   box-shadow: 0px 2px 4px #202020; 
 }
-
-
-
-
 
 .gif {
   display: block;
@@ -208,7 +205,6 @@ section {
   transition: 0.2s;
 }
 
-
 /* Gif button transistion */
 .button-container button:hover {
   background-color: rgb(231, 125, 54);
@@ -222,8 +218,8 @@ section {
   text-shadow: 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0), 0px 0px 1.5px rgb(0, 0, 0);
 }
 /* ---------------------- */
-
-.amazone-link {
+/* Styles for website/picture and link.  No longer needed at this time */
+/* .amazone-link {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -231,15 +227,15 @@ section {
   height: auto;
   border-radius: 5px;  
   box-shadow: 0px 2px 4px #202020;
-}
+} */
 
-.card img:nth-child(1) {border-radius: 8px; max-width: 100%;}
+/* .card img:nth-child(1) {border-radius: 8px; max-width: 100%;} */
 
 /* Amazone Transition */
-.amazone-link{transition: .5s;}
+/* .amazone-link{transition: .5s;}
 .amazone-link:hover {filter: blur(3px); outline: solid 7px coral;}
 .amazone-link{transition: .3s;}
-.amazone-link:focus {outline: solid 7px coral;}  
+.amazone-link:focus {outline: solid 7px coral;}   */
 /* -------------------- */
 
 
@@ -363,13 +359,6 @@ footer a:focus {filter: brightness(0.4)}
     border-radius: 15px;  
     box-shadow: 0px 2px 4px #202020;
   }
-
-  .button-container {
-    width: 100%;
-    margin-bottom: 200px;
-    margin-top: -230px;
-    z-index: 3;
-  }
 }
 /* ------------------- */
 /*----Media---768px----*/
@@ -387,8 +376,18 @@ footer a:focus {filter: brightness(0.4)}
   }
 
   .card {
-    padding: 15px 50px;    
+    padding: 15px;
+    /* padding: 15px 50px;       */
   }  
+
+  .button-container {
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: -230px;
+    /* margin: 10px auto 25px auto; */
+    z-index: 3;
+    max-width: 800px;
+  }
 }
 
 /* ------------------- */
