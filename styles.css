@@ -39,16 +39,16 @@ a {text-decoration: none;}
 header {text-align: center;}
 
 .name {
-  font-size: 65px;
+  font-size: 4.06rem;
   color: rgb(72, 72, 72);
   font-weight: 100;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 address {
-  line-height: 22px; 
-  margin-bottom: 8px;
-  font-size: 14px;
+  line-height: 1.475rem; 
+  margin-bottom: .5rem;
+  font-size: 1rem;
 }
 
 address a {color: rgb(81, 81, 97);}
@@ -60,24 +60,24 @@ address a:focus {color: rgb(109, 97, 97);}
 /* ---------------------- */
 
 h2 {
-  font-size: 40px; 
+  font-size: 2.5rem; 
   font-weight: 200;
   color: rgb(233, 134, 4);
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 1.875rem;
+  margin-bottom: 2.5rem;
 }
 
 .about-me { 
   max-width: 1100px; 
-  margin: 0px auto 40px auto;
-  padding: 0px 15px;
-  color: rgb(106, 106, 106);
+  margin: 0rem auto 2.5rem auto;
+  padding: 0rem .938rem;
+  color: rgb(80, 79, 79);
   line-height: 1.8;
 }
 
 .col {
   text-align: center;
-  padding: 15px;
+  padding: .938rem;
   border-radius: 6px;
   margin: auto;
   max-width: fit-content;
@@ -85,8 +85,8 @@ h2 {
 
 .col h3 {  
   color: rgb(233, 134, 4);
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 1.875rem;
+  margin-bottom: 1.25rem;
 }
 
 .skill-img {
@@ -100,8 +100,8 @@ h2 {
 }
 
 .col ul {
-  margin-top: 15px;
-  color: grey;
+  margin-top: .938rem;
+  color: rgb(90, 89, 89);
   line-height: 1.5;
 }
 
@@ -111,9 +111,9 @@ h2 {
 
 section {
   background-color: rgb(71, 75, 75);
-  max-width: 900px;
+  max-width: 56.25rem;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
   border-radius: 8px;
   box-shadow: 0px 2px 4px #202020; 
 }
@@ -121,7 +121,7 @@ section {
 .card {
   text-align: center;
   color: rgb(233, 134, 4);
-  padding: 15px;
+  padding: .938rem;
   border-radius: 6px;
   /* margin: auto; */
   /* max-width: fit-content;  */
@@ -129,8 +129,8 @@ section {
 }
 
 .card h3 {
-  margin-bottom: 10px; 
-  font-size: 45px; 
+  margin-bottom: .625rem; 
+  font-size: 2.813rem; 
   color: rgb(231, 165, 99);
   text-shadow: 0px 1px 1px #202020; 
 }
@@ -138,14 +138,14 @@ section {
 .arrow {height: 40px;}
 
 .slide-title {
-  max-width: 265px;
+  max-width: 16.563rem;
   margin: auto;
-  margin-bottom: 30px;
-  font-size: 28px;
+  margin-bottom: 1.875rem;
+  font-size: 1.75rem;
   color: whitesmoke;
-  padding: 7px 10px;
+  padding: .438rem .625rem;
   border-radius: 10px;
-  background-color: rgb(3, 213, 213);
+  background-color: rgb(1, 189, 189);
   box-shadow: 0px 2px 4px #202020; 
 }
 
@@ -191,13 +191,13 @@ section {
 }
 
 .button-container button {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: whitesmoke;
   text-shadow: 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255), 0px 0px 1.5px rgb(255, 255, 255);
-  background-color: rgb(3, 213, 213);
+  background-color: rgb(1, 189, 189);
   border: none;
   border-radius: 10px;
   padding: 4.5px 0px 0px 0px;
@@ -250,15 +250,15 @@ section {
 
 .buttons a {
   display:block; 
-  margin: 30px auto 25px;
-  width: 300px;
-  padding: 15px 15px;
+  margin: 1.875rem auto 1.563rem;
+  width: 18.75rem;
+  padding: .938rem;
   
   background-color: rgb(50, 88, 109);
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   box-shadow: 0px 2px 4px #202020;  
 }
 
@@ -275,9 +275,9 @@ section {
 
 .work-title {
 
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   color: rgb(231, 125, 54);
 }
 
@@ -291,27 +291,27 @@ section {
 
   color: grey;
 
-  max-width: 1050px;
+  max-width: 65.625rem;
   margin: auto;
-  padding: 0px 15px;
+  padding: 0px .938rem;
 }
 
 .dates {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 500;
  }
 
 .jobs h3 {
-  font-size: 30px;
-  margin: 5px 0px 10px 0px;
+  font-size: 1.875rem;
+  margin: .313rem 0rem .625rem 0rem;
   color: rgb(72, 72, 72);
 }
 
 .jobs ul {
   color: rgb(72, 72, 72);
   list-style-type: '-   ';
-  margin-left: 30px;
-  padding-bottom: 48px;
+  margin-left: 1.875rem;
+  padding-bottom: 3rem;
   line-height: 1.4;
 }
 
@@ -323,14 +323,14 @@ footer {
   background-color: rgb(60, 59, 59); 
   color: white; 
   text-align: center; 
-  padding: 15px;
+  padding: .938rem;
 }
 
 .footer-address {line-height: 20px;}
 
 .footer-address a{
   color: whitesmoke;
-  font-size: 11px;
+  font-size: 1rem;
 }
 
 /* Footer GitHub Transition */
@@ -338,7 +338,7 @@ footer a {transition: .3s;}
 footer a:hover {filter: brightness(0.4)}
 footer a:focus {filter: brightness(0.4)}
 
-.copyright {margin-top: 10px; font-size: 10px;}
+.copyright {margin-top: 10px; font-size: 1rem;}
 
 .footer-address a {transition: .3s;} /*adds brightness*/
 .footer-address a:hover {color: rgb(255, 255, 255);}
@@ -367,26 +367,26 @@ footer a:focus {filter: brightness(0.4)}
 @media (min-width: 768px) {
   .skill-container {
     display: flex;
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: auto;
   }
 
   col {
-    flex-basis: calc(30% - 20px);    
+    flex-basis: calc(30% - 11.25rem);    
   }
 
   .card {
-    padding: 15px;
+    padding: .938rem;
     /* padding: 15px 50px;       */
   }  
 
   .button-container {
     width: 100%;
-    margin-bottom: 200px;
-    margin-top: -230px;
+    margin-bottom: 12.5rem;
+    margin-top: -14.375rem;
     /* margin: 10px auto 25px auto; */
     z-index: 3;
-    max-width: 800px;
+    max-width: 50rem;
   }
 }
 
