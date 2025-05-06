@@ -13,6 +13,7 @@ html, body {
   height: 100%; 
   font-family: 'Roboto', sans-serif; 
   background-color: rgb(165, 203, 226);
+  overscroll-behavior: contain;
 } 
 
 ul {list-style-type: none;}
